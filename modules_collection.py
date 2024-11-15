@@ -1,8 +1,6 @@
 import numpy as np
 import pandas as pd
-from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
-from sklearn import preprocessing
 from sklearn.tree import DecisionTreeClassifier, plot_tree, export_text
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, confusion_matrix
@@ -10,8 +8,7 @@ from sklearn.metrics import accuracy_score, confusion_matrix
 
 import matplotlib
 import pylab as plt
-import plotly.express as px 
-import plotly.graph_objects as go
+import plotly.express as px
 import seaborn as sns
 
 
