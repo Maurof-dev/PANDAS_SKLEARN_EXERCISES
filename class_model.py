@@ -41,7 +41,7 @@ class model_builder():
 modtype = 'decision_tree'
 modalt = 'rnd_forest'
 
-obj = model_builder(testsize=0.55,valsize=0.2,modtype=modtype)
+obj = model_builder(testsize=0.1,valsize=0.1,modtype=modalt)
 
 obj.data_description()
 obj.plot_histo()

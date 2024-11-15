@@ -137,7 +137,6 @@ def depth_check(df,testsize,valsize,modtype):
         if modtype == 'decision_tree':
             model = DecisionTreeClassifier(criterion='gini',max_depth=depth,random_state=42)
         if modtype == 'rnd_forest':
-            print('HERE I AM')
             model = RandomForestClassifier(criterion='gini', max_depth=depth,random_state=42)
         model.fit(X_train, train_targets)
         train_score = train_score + [model.score(X_train, train_targets)]
